@@ -774,7 +774,9 @@ margin-top: 1.4rem;
     
 }
 
-/*******************CONTACT FORM**************************/
+.contact{
+    background-color: ;
+}
 
 .contact__container{
     background-color: var(--color-bg3);
