@@ -1,0 +1,151 @@
+:root{
+    --color-primary: #6c63ff;
+    --color-success:#00bf8e;
+    --color-warning:#f7c94b;
+    --color-danger:#f75842;
+    --color-danger-variant:rgba(247,88,66,0.4);
+    --color-white:#fff;
+    --color-black:#000;
+    --color-bg:#1f2641;
+    --color-bg2:#2e3267;
+    --color-bg3:#424890;
+
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:100%;
+
+    --transition:all 400ms ease;
+}
+body{
+    background-image: url(/images/bitcoin1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #cdf324;
+        height: 3000px;   
+    }
+    .header{
+        position: fixed;
+        top:0;
+        left:0;
+        right: 0;
+        height: 80px;
+        width: 100vw;
+        background-color: aqua;
+    }
+    .nav__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:3rem;
+        list-style: none;
+    
+    }
+    .nav__menu a{
+        font-size: 0.9rem;
+        transition: var(--transition);
+    }
+    .nav__menu a:hover{
+        color:var(--color-success);
+    }
+    .logo{
+        width: 10px;
+    }
+   
+h4{
+    font-size: 1.3rem;
+}  
+  .container{
+    height:100%;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto;
+    width: var(--container-width-lg);
+
+    }
+    .nav__container{
+        height:100%;
+        display:flex ;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+.login{
+    margin:100px auto;
+    width:250px;
+    background-color: #ff2052;
+    padding: 60px;
+}
+.logo{
+    background-color: aqua;
+    width: 140px;
+    height: 120px;
+    border-radius: 20px;
+    margin:0 auto ;
+    margin-bottom: 60px;
+}
+.logo img{
+    width: 100%;
+}
+.title{
+    text-align: center ;
+    margin-top:20px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    
+}
+.form{
+    width:100px;
+    margin-top:0;
+}
+.form input{
+    font-size: 15px;
+    padding: 10px 20px 10px 5px;
+    background: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.form svg{
+    height: 25px;
+    margin-bottom:-35px;
+    margin-left:5px ;
+    margin-right:0px;
+}
+.options{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.signin-btn{
+    background-color: aqua;
+    color:white;
+    width: 190px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: opacity 0.15s;
+    text-align:center;
+}
+.signin-btn:hover {
+   opacity: 0.7;
+}
+a{
+    text-decoration: none;
+}
+input::placeholder{
+    color:black;
+   padding-right: 10px;
+   font-weight: 500;
+}
+.forgot-password{
+    text-align: left;
+    color: red;
+}
+
